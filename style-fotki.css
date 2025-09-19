@@ -1,0 +1,44 @@
+body{
+background-color: #ffd4eb;
+}
+
+ul {
+display: flex;
+justify-content: center;
+gap: 50px;
+margin-bottom: 30px;
+list-style-type:  none;
+}
+
+li{
+background-color: #EAA4CA;
+border-radius: 82px;
+padding: 10px 20px;
+font-size: 20px;
+border: 0;
+}
+
+a{
+text-decoration: none;
+color: #542d43;
+}
+
+.podpis{
+text-align: center;
+color: #A05E82;
+margin-bottom: 50px;
+font-size: 25px;
+}
+
+.photos{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+gap: 50px;
+}
+
+.pic{
+height: 250px;
+border-radius: 5px;
+}
