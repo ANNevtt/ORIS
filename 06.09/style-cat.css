@@ -6,7 +6,7 @@ margin-bottom: 55px;
 list-style-type: none;
 }
 
-li{
+.start{
 background-color: #EAA4CA;
 border-radius: 82px;
 padding: 10px 20px;
@@ -63,9 +63,73 @@ flex-wrap: wrap;
 align-items: center;
 justify-content: center;
 gap: 50px;
+margin-bottom: 60px;
 }
 
 .pic{
 height: 250px;
 border-radius: 10px;
+}
+
+.more-cat{
+text-align: center;
+margin-bottom: 20px;
+}
+
+.more-cat-text{
+color: #D560A0;
+font-size: 35px;
+}
+
+.carousel {
+height: 500px;
+position: relative;
+}
+
+.carousel > ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+.slide {
+position: absolute;
+inset: 0;
+opacity: 0;
+}
+
+.slide[data-active] {
+opacity: 1;
+}
+
+.slide > img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+object-fit: cover;
+object-position: center;
+height: 600px;
+}
+
+.carousel-button {
+position: absolute;
+z-index: 2;
+background: none;
+border: none;
+font-size: 50px;
+cursor: pointer;
+top: 50%;
+color: #542d43;
+}
+
+.carousel-button:hover {
+    color:#99597d;
+}
+
+.prev {
+    left: 400px;
+}
+
+.next {
+    right: 400px;
 }

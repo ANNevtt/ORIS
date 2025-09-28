@@ -71,3 +71,39 @@ gap: 65px;
 .link-to{
 height: 60px;
 }
+
+body {
+transition: background-color 0.3s ease;
+}
+
+body.light-theme {
+background-color: #ffffff;
+}
+
+body.dark-theme {
+background-color: #121212;
+}
+
+.my-button {
+margin-top: -89px;
+margin-bottom: 75px;
+display: flex;
+justify-content: flex-end;
+margin-right: 30px;
+}
+
+#themeToggle {
+cursor: pointer;
+}
+
+.menu {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease, opacity 0.5s ease;
+}
+
+.buttonnnn.active + .menu {
+  max-height: 500px;
+  opacity: 1;
+}
